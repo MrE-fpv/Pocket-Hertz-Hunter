@@ -30,7 +30,7 @@ void Menu::handleButtons() {
   int nextPressed = digitalRead(next_pin);
 
   // Hidden reset function
-  if (prevPressed == HIGH && selectPressed == HIGH && nextPressed == HIGH) {
+  if (prevPressed == LOW && selectPressed == LOW && nextPressed == LOW) {
     settings->clearReset();
   }
 
@@ -38,8 +38,8 @@ void Menu::handleButtons() {
   menus[SCAN].menuItemsLength = (SCAN_FREQUENCY_RANGE / settings->scanInterval.get()) + 1;  // +1 for final number inclusion
 
   // Move between menu items
-  if (nextPressed == HIGH || prevPressed == HIGH) {
-    int direction = (nextPressed == HIGH) ? 1 : -1;
+  if (nextPressed == LOW || prevPressed == LOW) {
+    int direction = (nextPressed == LOW) ? 1 : -1;
     menus[menuIndex].menuIndex = (menus[menuIndex].menuIndex + direction + menus[menuIndex].menuItemsLength) % menus[menuIndex].menuItemsLength;
 
     // Sound buzzer on button press if necessary
@@ -50,7 +50,7 @@ void Menu::handleButtons() {
   }
 
   // Handle pressing and holding SELECT to go back
-  if (selectPressed == HIGH) {
+  if (selectPressed == LOW) {
     if (selectButtonPressTime == 0) {  // Button just pressed so record time
       selectButtonPressTime = millis();
 
@@ -314,7 +314,7 @@ void Menu::drawScanMenu() {
 
 // Draw static content on about menu
 void Menu::drawAboutMenu() {
-  const char *info = "5.8GHz scanner";
+  const char *info = "Pocket HertzHunter";
   u8g2.drawStr(xTextCentre(info, 7), 28, info);
 
   u8g2.drawStr(xTextCentre(VERSION, 7), 44, VERSION);
@@ -394,7 +394,7 @@ void Menu::initMenus() {
   calibrationMenuItems[1] = { "Calib. low", bitmap_WifiLow };
 
   // Menus
-  menus[0] = { "Hertz Hunter", mainMenuItems, 3, 0 };
+  menus[0] = { " Pocket HzHunter", mainMenuItems, 3, 0 };
   menus[1] = { "Scan", nullptr, MAX_FREQUENCIES_SCANNED, 0 };
   menus[2] = { "Settings", settingsMenuItems, 3, 0 };
   menus[3] = { "About", nullptr, 1, 0 };

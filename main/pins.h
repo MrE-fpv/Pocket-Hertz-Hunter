@@ -1,9 +1,10 @@
 #ifndef PINS_H
 #define PINS_H
 
-#define PREVIOUS_BUTTON_PIN 21
+#define PREVIOUS_BUTTON_PIN 1
 #define SELECT_BUTTON_PIN 20
 #define NEXT_BUTTON_PIN 10
+#define EXTRA_BUTTON_PIN 1
 
 #define SPI_DATA_PIN 6
 #define SPI_LE_PIN 7
