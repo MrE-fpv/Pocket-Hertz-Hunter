@@ -1,4 +1,4 @@
-# Hertz Hunter
+# Pocket Hertz Hunter
 
 ## Contents
 
