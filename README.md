@@ -82,3 +82,6 @@ All other device information about configuration, calibration and usage [ can be
 
 Due to the fact that the settings and calibration values are stored in non-volatile memory, flashing the firmware again won't wipe them. If, for some reason, the device needs to be completely reset, press `PREV`, `SEL` and `NEXT` simultaneously. The device should reboot with everything completely wiped and reset.
 
+## Files
+- 3D Printed case
+- PCB manufacturing  
