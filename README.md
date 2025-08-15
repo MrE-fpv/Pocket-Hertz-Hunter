@@ -52,7 +52,8 @@ The components list are easy to attach to the PCB, the screen is 8 through holes
 ### Construction
 
 <div align="center">
-    <img src="./images/Board-constructed.png" alt="Wiring" />
+    <img src="./images/PocketHertzHunter4.png" alt="PCB" width="31%"/>
+    <img src="./images/Board-constructed.png" alt="assembled" />
 </div>
 
 ## Software
@@ -81,3 +82,6 @@ All other device information about configuration, calibration and usage [ can be
 
 Due to the fact that the settings and calibration values are stored in non-volatile memory, flashing the firmware again won't wipe them. If, for some reason, the device needs to be completely reset, press `PREV`, `SEL` and `NEXT` simultaneously. The device should reboot with everything completely wiped and reset.
 
+## Files
+- 3D Printed case
+- PCB manufacturing  
