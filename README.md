@@ -52,7 +52,8 @@ The components list are easy to attach to the PCB, the screen is 8 through holes
 ### Construction
 
 <div align="center">
-    <img src="./images/Board-constructed.png" alt="Wiring" />
+    <img src="./images/PocketHertzHunter4.png" alt="PCB" width="31%"/>
+    <img src="./images/Board-constructed.png" alt="assembled" />
 </div>
 
 ## Software
