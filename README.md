@@ -16,7 +16,7 @@
 
 ## Introduction
 
-Taking Odddollar's Hertz Hunter to an easy & very cheap compact version, that any individual or club could have in their gear.
+Taking Odddollar's Hertz Hunter to an simple & very cheap compact version, that any individual or club could have in their gear.
 
 *Images*
 
@@ -40,7 +40,7 @@ Taking Odddollar's Hertz Hunter to an easy & very cheap compact version, that an
 
 ### Components
 
-The components list are easy to attach to the PCB, the screen is 8 through holes, the ESP32 and RX5808 have nice large pads to affix them.
+The components are easy to attach to the PCB, the screen is 8 through holes, the ESP32 and RX5808 have nice large pads to affix them.
 
 - 1x [ESP32-C3 Super Mini](https://www.aliexpress.com/w/wholesale-esp32-c3-super-mini.html) (<$5)
 - 1x [RX5808 with SPI mod](https://www.aliexpress.com/w/wholesale-rx5808-spi.html) (\$25 to \$50 depending on the seller)
@@ -57,7 +57,7 @@ The components list are easy to attach to the PCB, the screen is 8 through holes
 </div>
 
 ## Software
-For Enviroment & Software installation, please follow the orignal instructions:
+For Environment & Software installation, please follow the orignal instructions using this projects files:
 [You can find them here](https://github.com/odddollar/Hertz-hunter?tab=readme-ov-file#software). 
 
 ## Usage
@@ -84,4 +84,7 @@ Due to the fact that the settings and calibration values are stored in non-volat
 
 ## Files
 - 3D Printed case
-- PCB manufacturing  
+    - Pocket-Hertz-Hunter-Base.stl
+    - Pocket-Hertz-Hunter-Lid.stl
+- PCB manufacturing
+    - PocketHertzHunter-Gerber-Files-V1.zip
