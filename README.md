@@ -16,7 +16,7 @@
 
 ## Introduction
 
-Taking Odddollar's Hertz Hunter to an simple & very cheap compact version, that any individual or club could have in their gear.
+Taking Odddollar's Hertz Hunter to a simple & very cheap compact version, that any individual or club could have in their gear.
 
 *Images*
 
